@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,55 @@
     <link rel="stylesheet" href="./src/style/style.css">
     <link rel="stylesheet" href="./src/style/reset.css">
 </head>
+
 <body>
-    <script src="./src/js/index.js"></script>
+    <main>
+        <!-- 위니브 상단 로고 -->
+        <h1 class="logo-weniv">
+            <img src="./src/img/weniv-logo.png" alt="위니브 로고">
+        </h1>
+        <!-- 타이머 -->
+        <article class="cont-title">
+            <h2 class="title">TIMER</h2>
+            <img class="border-title" src="./src/img/border.png" alt="">
+            <!-- 타이머 시간 -->
+            <div class="cont-time">
+                <ol>
+                    <li>
+                        <p>HRS</p>
+                        <span class="hour">00</span>
+                        <img src="./src/img/box.png" alt="">
+                    </li>
+                    <li>
+                        <p>MIN</p>
+                        <span class="min">00</span>
+                        <img class="component-box" src="./src/img/box.png" alt="">
+                    </li>
+                    <li>
+                        <p>SEC</p>
+                        <span class="sec">00</span>
+                        <img class="component-box" src="./src/img/box.png" alt="">
+                    </li>
+                </ol>
+            </div>
+            <!-- 타이머 버튼-->
+            <div class="cont-btns">
+                <button class="btn-start" type="button">
+                    <!-- <img src="./src/img/.png" alt=""> -->
+                    <span>START</span>
+                </button>
+                <button class="btn-reset" type="button">
+                    <!-- <img src="./src/img/.png" alt=""> -->
+                    <span>RESET</span>
+                </button>
+            </div>
+        </article>
+        <!-- 위니브 하단 로고 -->
+        <footer>
+            <img src="./src/img/weniv-footer-logo.png" alt="">
+        </footer>
+    </main>
+    <script type="module" src="./src/js/index.js"></script>
 </body>
+
 </html>
